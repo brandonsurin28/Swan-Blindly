@@ -15,7 +15,7 @@ C:/Users/Brandon/Documents/Game Dev/GPS 2/Swan-Blindly/Swan-Blindly
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53203
+49733
 Successfully changed project path to: C:/Users/Brandon/Documents/Game Dev/GPS 2/Swan-Blindly/Swan-Blindly
 C:/Users/Brandon/Documents/Game Dev/GPS 2/Swan-Blindly/Swan-Blindly
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Brandon/Documents/Game Dev/GPS 2/Swan-Blindly/Swan-Blindly
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 84.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 91.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -63,39 +63,39 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004732 seconds.
+Registered in 0.005688 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 90.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 87.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.671 seconds
+- Completed reload, in  0.681 seconds
 Domain Reload Profiling:
-	ReloadAssembly (672ms)
-		BeginReloadAssembly (72ms)
+	ReloadAssembly (682ms)
+		BeginReloadAssembly (71ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (489ms)
-			LoadAssemblies (70ms)
+		EndReloadAssembly (496ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (110ms)
+			SetupTypeCache (112ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (295ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (300ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (55ms)
+				InitializePlatformSupportModulesInManaged (60ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (90ms)
+				RefreshPlugins (87ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadAttributes (104ms)
 				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -103,39 +103,39 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005138 seconds.
+Registered in 0.006964 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Brandon\Documents\Game Dev\GPS 2\Swan-Blindly\Swan-Blindly\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Brandon\Documents\Game Dev\GPS 2\Swan-Blindly\Swan-Blindly\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.230 seconds
+- Completed reload, in  1.246 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1231ms)
-		BeginReloadAssembly (291ms)
+	ReloadAssembly (1247ms)
+		BeginReloadAssembly (251ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (179ms)
-		EndReloadAssembly (826ms)
-			LoadAssemblies (94ms)
+			CreateAndSetChildDomain (159ms)
+		EndReloadAssembly (870ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (278ms)
+			SetupTypeCache (314ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (376ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (382ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (229ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
@@ -143,12 +143,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 26 unused Assets / (112.1 KB). Loaded Objects now: 3819.
 Memory consumption went from 115.7 MB to 115.6 MB.
-Total: 5.097800 ms (FindLiveObjects: 0.262900 ms CreateObjectMapping: 0.193800 ms MarkObjects: 4.538400 ms  DeleteObjects: 0.101600 ms)
+Total: 3.821300 ms (FindLiveObjects: 0.264200 ms CreateObjectMapping: 0.200300 ms MarkObjects: 3.246100 ms  DeleteObjects: 0.109800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,55 +162,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 94504.111521 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.008238 seconds 
+  Time since last request: 95930.110563 seconds.
+  path: Assets/Scenes/Brandon test scene.unity
+  artifactKey: Guid(1ae93b5cdd59b204faf7cdd65de06ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Brandon test scene.unity using Guid(1ae93b5cdd59b204faf7cdd65de06ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c033386d87e8caa632fe53924bc7a138') in 0.009815 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.153642 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(b342cfccfd750d342b7f10120f6ea7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(b342cfccfd750d342b7f10120f6ea7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4c13a420f87dcbbcef4fcc8bb3c167') in 0.005885 seconds 
+  Time since last request: 12.293537 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2dbbc1cedfd0107ca1ad38e8220053') in 0.013191 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.957855 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(9872e6b76b81056469d06300d5e722ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(9872e6b76b81056469d06300d5e722ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3fdd488d5a988fa590a81b1cdf407d') in 0.006601 seconds 
+  Time since last request: 39.282139 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(9484d32ddcfbe8b47a8e6b042803db71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(9484d32ddcfbe8b47a8e6b042803db71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899b3f3cc31e8c3b60fc570d0d6a85d3') in 0.006413 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.111951 seconds.
-  path: Assets/Scripts/Vinnaeyesh
-  artifactKey: Guid(cba92acbb6410f144a4a2961031e8c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Vinnaeyesh using Guid(cba92acbb6410f144a4a2961031e8c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0583212980b34bf5607320c11421fbac') in 0.005019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.491597 seconds.
-  path: Assets/Scripts/Brandon
-  artifactKey: Guid(a5b7b1661c82f614e93f04b306eee11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Brandon using Guid(a5b7b1661c82f614e93f04b306eee11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78342d93344b8d25d1a6085cb73976cc') in 0.004972 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.692498 seconds.
-  path: Assets/Scripts/Wing Shen
-  artifactKey: Guid(15d7a1abbf6539e46852dd14dbe101bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Wing Shen using Guid(15d7a1abbf6539e46852dd14dbe101bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69809b15d3192fe913602845a9b284f') in 0.004782 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.122293 seconds.
-  path: Assets/Scripts/Jake
-  artifactKey: Guid(4d63e2fcd2335e44e96b45a37cfe760b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Jake using Guid(4d63e2fcd2335e44e96b45a37cfe760b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641a0beb3bb199826c2b3fbd0347eb37') in 0.005318 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.006200 seconds.
-  path: Assets/Scripts/Raihan
-  artifactKey: Guid(71432561c5a163142b260ce18e067415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Raihan using Guid(71432561c5a163142b260ce18e067415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18db599dcdc3b5a55aba9ef5b5c7ff57') in 0.005095 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.280639 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(ea09e2a53f0b46d43a58972e4fbbbafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(ea09e2a53f0b46d43a58972e4fbbbafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4fc8f045c7c1bcd42a2de5fb82b6da') in 0.005337 seconds 
+  Time since last request: 594.393801 seconds.
+  path: Assets/Scenes/level-1.unity
+  artifactKey: Guid(7418875e4f0a83749b081d4256eb7d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/level-1.unity using Guid(7418875e4f0a83749b081d4256eb7d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c5cbef3fc5ccc1240e09dba480114e') in 0.007422 seconds 
