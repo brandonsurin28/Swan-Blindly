@@ -15,7 +15,7 @@ C:/Users/Vinnaeysh/Documents/GitHub/Swan-Blindly/Swan-Blindly
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54134
+60077
 Successfully changed project path to: C:/Users/Vinnaeysh/Documents/GitHub/Swan-Blindly/Swan-Blindly
 C:/Users/Vinnaeysh/Documents/GitHub/Swan-Blindly/Swan-Blindly
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Vinnaeysh/Documents/GitHub/Swan-Blindly/Swan-Blindly
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 91.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 122.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
 [Subsystems] Discovering subsystems at path D:/unity/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -63,92 +63,90 @@ Initialize mono
 Mono path[0] = 'D:/unity/2021.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'D:/unity/2021.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/unity/2021.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/unity/2021.3.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/unity/2021.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005782 seconds.
+Registered in 0.068465 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 94.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 127.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.661 seconds
+- Completed reload, in  1.625 seconds
 Domain Reload Profiling:
-	ReloadAssembly (662ms)
-		BeginReloadAssembly (98ms)
+	ReloadAssembly (1626ms)
+		BeginReloadAssembly (622ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (463ms)
-			LoadAssemblies (97ms)
+		EndReloadAssembly (789ms)
+			LoadAssemblies (619ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (104ms)
+			SetupTypeCache (231ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (283ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (442ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (52ms)
+				InitializePlatformSupportModulesInManaged (112ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (94ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (96ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				RefreshPlugins (128ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006613 seconds.
+Registered in 0.010889 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Vinnaeysh\Documents\GitHub\Swan-Blindly\Swan-Blindly\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Vinnaeysh\Documents\GitHub\Swan-Blindly\Swan-Blindly\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 147.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.271 seconds
+- Completed reload, in  2.181 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1272ms)
-		BeginReloadAssembly (381ms)
+	ReloadAssembly (2182ms)
+		BeginReloadAssembly (307ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (241ms)
-		EndReloadAssembly (779ms)
-			LoadAssemblies (144ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (1716ms)
+			LoadAssemblies (248ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (254ms)
+			SetupTypeCache (444ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (355ms)
+			RebuildScriptCaches (120ms)
+			SetupLoadedEditorAssemblies (846ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (212ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (148ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (466ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.25 seconds
+Refreshing native plugins compatible for Editor in 1.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (112.4 KB). Loaded Objects now: 3833.
-Memory consumption went from 117.9 MB to 117.8 MB.
-Total: 7.145600 ms (FindLiveObjects: 1.242700 ms CreateObjectMapping: 0.175600 ms MarkObjects: 5.543700 ms  DeleteObjects: 0.180200 ms)
+Unloading 3872 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (184.8 KB). Loaded Objects now: 4331.
+Memory consumption went from 138.3 MB to 138.2 MB.
+Total: 47.068700 ms (FindLiveObjects: 0.798400 ms CreateObjectMapping: 0.157300 ms MarkObjects: 45.584800 ms  DeleteObjects: 0.525500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,56 +160,54 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 726534.824208 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(9872e6b76b81056469d06300d5e722ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(9872e6b76b81056469d06300d5e722ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38189bb136dfa982f7cd9e983aba0af') in 0.012101 seconds 
+  Time since last request: 902291.065281 seconds.
+  path: Assets/VinnFolder/Scripts/JoystickFolder/Joystick.cs
+  artifactKey: Guid(f606a9a1787d5344bb47543ee438da8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VinnFolder/Scripts/JoystickFolder/Joystick.cs using Guid(f606a9a1787d5344bb47543ee438da8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bdc3cf40183eb176e366f17b48ca3ed') in 0.066480 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006023 seconds.
+Registered in 0.006163 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Vinnaeysh\Documents\GitHub\Swan-Blindly\Swan-Blindly\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Vinnaeysh\Documents\GitHub\Swan-Blindly\Swan-Blindly\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.987 seconds
+- Completed reload, in  1.444 seconds
 Domain Reload Profiling:
-	ReloadAssembly (988ms)
-		BeginReloadAssembly (157ms)
+	ReloadAssembly (1445ms)
+		BeginReloadAssembly (515ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (728ms)
-			LoadAssemblies (103ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (837ms)
+			LoadAssemblies (144ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (245ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (309ms)
+			SetupTypeCache (258ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (407ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
+				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (183ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (279ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3356 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (79.3 KB). Loaded Objects now: 3837.
-Memory consumption went from 116.6 MB to 116.5 MB.
-Total: 4.124900 ms (FindLiveObjects: 0.278300 ms CreateObjectMapping: 0.081000 ms MarkObjects: 3.644600 ms  DeleteObjects: 0.120100 ms)
+Unloading 3854 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (151.7 KB). Loaded Objects now: 4346.
+Memory consumption went from 136.8 MB to 136.7 MB.
+Total: 3.604200 ms (FindLiveObjects: 0.389300 ms CreateObjectMapping: 0.090400 ms MarkObjects: 2.994300 ms  DeleteObjects: 0.128900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -223,3 +219,1073 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 130.228946 seconds.
+  path: Assets/VinnFolder/Scripts/JoystickFolder/Joystick.cs
+  artifactKey: Guid(f606a9a1787d5344bb47543ee438da8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VinnFolder/Scripts/JoystickFolder/Joystick.cs using Guid(f606a9a1787d5344bb47543ee438da8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b02e0dd1fbb9474c7d5cb0f9ea61b7c') in 0.007898 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005935 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.103 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1103ms)
+		BeginReloadAssembly (188ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (817ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (276ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (376ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (251ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3854 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (151.5 KB). Loaded Objects now: 4361.
+Memory consumption went from 136.9 MB to 136.7 MB.
+Total: 3.776200 ms (FindLiveObjects: 0.567800 ms CreateObjectMapping: 0.090800 ms MarkObjects: 3.006500 ms  DeleteObjects: 0.109200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006979 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.219 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1220ms)
+		BeginReloadAssembly (186ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (934ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (298ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (434ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3854 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (151.7 KB). Loaded Objects now: 4376.
+Memory consumption went from 136.9 MB to 136.7 MB.
+Total: 4.316700 ms (FindLiveObjects: 0.442500 ms CreateObjectMapping: 0.089800 ms MarkObjects: 3.603300 ms  DeleteObjects: 0.179700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006054 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.131 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1132ms)
+		BeginReloadAssembly (190ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (838ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (389ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (254ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3854 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (151.7 KB). Loaded Objects now: 4391.
+Memory consumption went from 136.9 MB to 136.8 MB.
+Total: 3.238100 ms (FindLiveObjects: 0.375000 ms CreateObjectMapping: 0.101700 ms MarkObjects: 2.656200 ms  DeleteObjects: 0.104200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005766 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.194 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1195ms)
+		BeginReloadAssembly (183ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (916ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (297ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (424ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (279ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3854 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (151.6 KB). Loaded Objects now: 4406.
+Memory consumption went from 137.0 MB to 136.8 MB.
+Total: 3.769300 ms (FindLiveObjects: 0.627500 ms CreateObjectMapping: 0.107200 ms MarkObjects: 2.925800 ms  DeleteObjects: 0.107600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006801 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.152 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1153ms)
+		BeginReloadAssembly (181ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (871ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (278ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (416ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3854 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (151.5 KB). Loaded Objects now: 4421.
+Memory consumption went from 137.0 MB to 136.8 MB.
+Total: 3.206400 ms (FindLiveObjects: 0.357900 ms CreateObjectMapping: 0.099100 ms MarkObjects: 2.655400 ms  DeleteObjects: 0.092600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009052 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.146 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1147ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (858ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (398ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (264ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3854 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (151.7 KB). Loaded Objects now: 4436.
+Memory consumption went from 137.0 MB to 136.9 MB.
+Total: 3.540400 ms (FindLiveObjects: 0.322900 ms CreateObjectMapping: 0.096600 ms MarkObjects: 3.007700 ms  DeleteObjects: 0.112100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 960.802758 seconds.
+  path: Assets/Scenes/level-1.unity
+  artifactKey: Guid(7418875e4f0a83749b081d4256eb7d2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/level-1.unity using Guid(7418875e4f0a83749b081d4256eb7d2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '41cc2c0234508d045b2588ea15d5d72d') in 0.246756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '08192baf296f75994d134f5c390c0a22') in 0.011271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Button_Settings.prefab
+  artifactKey: Guid(5754ef6133508f94eb5f9008157be8e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Prefabs/Button_Settings.prefab using Guid(5754ef6133508f94eb5f9008157be8e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3962955a50f4edc3cd502739e7eb363f') in 0.101550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Scales/Empty_Honeycomb_60px.png
+  artifactKey: Guid(f46e7fccaa0af0d4e99e9d61f79efb23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Scales/Empty_Honeycomb_60px.png using Guid(f46e7fccaa0af0d4e99e9d61f79efb23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '34a19b8d3674dc3e760e3a2a88f7e964') in 0.098176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sweet Land GUI/READ ME.txt
+  artifactKey: Guid(0b61e748ae403704ab086d0d27940c76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/READ ME.txt using Guid(0b61e748ae403704ab086d0d27940c76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd0f34a5b35ad00b5b373d33a601351ca') in 0.009465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sweet Land GUI/Animations/Add_Video_Shining.anim
+  artifactKey: Guid(9d028038feab3274cb5f11c7da123455) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Animations/Add_Video_Shining.anim using Guid(9d028038feab3274cb5f11c7da123455) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b60b5fa16333b12ce6203bd2e5a103dc') in 0.162459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/VinnFolder/Assets/Materials/PLayer.mat
+  artifactKey: Guid(965f368e88df1c34f8d6559a1cfb31a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VinnFolder/Assets/Materials/PLayer.mat using Guid(965f368e88df1c34f8d6559a1cfb31a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '19f60d007235da4319af42e591680f70') in 0.021844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sweet Land GUI/Sprites/BG_Shining.png
+  artifactKey: Guid(645e774c22c0fb647a406b8c87c7218f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/BG_Shining.png using Guid(645e774c22c0fb647a406b8c87c7218f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '656373674cd5550c3763a247fe5e64a1') in 0.021353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Icons/Icon_Music_Off.png
+  artifactKey: Guid(07b32c538f796844bbcd68c43da30dcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Icons/Icon_Music_Off.png using Guid(07b32c538f796844bbcd68c43da30dcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f4f05958d65f06254f33d757e8444071') in 0.018649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Icons/Coin.png
+  artifactKey: Guid(c21dec3f1118e7c4e92c9fa1735ccf57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Icons/Coin.png using Guid(c21dec3f1118e7c4e92c9fa1735ccf57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '873aafc6b41ff1703c418aaed4b97a32') in 0.016074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2eb48a327ac771745e6688b4433be67e') in 0.013079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Add_Video_Button.prefab
+  artifactKey: Guid(a2a5e04f4b767304ab223ea716cb9631) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Prefabs/Add_Video_Button.prefab using Guid(a2a5e04f4b767304ab223ea716cb9631) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ab7cbf8fc8611846a64367e1cacfb3ce') in 0.098114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Button_Shop.prefab
+  artifactKey: Guid(254352ac83cce7844912efbd61e47ccc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Prefabs/Button_Shop.prefab using Guid(254352ac83cce7844912efbd61e47ccc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '75bd266eab1351d65df2947e74b0a9c0') in 0.013035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Prize_Window.prefab
+  artifactKey: Guid(2de6adfc5be43444bb76afa224daee78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Prefabs/Prize_Window.prefab using Guid(2de6adfc5be43444bb76afa224daee78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b3632c48c24d25248fdf2ad7839d8b5e') in 0.016219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Icons/Heart.png
+  artifactKey: Guid(69138f6b03c8c9c44bda0ff26e983dda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Icons/Heart.png using Guid(69138f6b03c8c9c44bda0ff26e983dda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '27773a69a1f6767c4196967cae151119') in 0.017304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Scales/Empty_Circle_250px.png
+  artifactKey: Guid(327c74d3cec455843af3e84bfa60a591) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Scales/Empty_Circle_250px.png using Guid(327c74d3cec455843af3e84bfa60a591) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6563841408a9142963ffb0afd2254a0e') in 0.018087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Icons/Icon_Pause.png
+  artifactKey: Guid(f7531c55aa5e400418161d9ec43b80fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Icons/Icon_Pause.png using Guid(f7531c55aa5e400418161d9ec43b80fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '05dfec3fd00881ae4248b15888cb78e6') in 0.021450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Scales/Empty_Trapezoid_60px.png
+  artifactKey: Guid(43bdf6283aecc1746ba8783969c9b796) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Scales/Empty_Trapezoid_60px.png using Guid(43bdf6283aecc1746ba8783969c9b796) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3194ee79e6afdb90d03a4e00e53e4d4d') in 0.017768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a93c0894ac323b870ef0a142c9b164ed') in 0.005757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd9c433a9da9206ef787fe89453065057') in 0.026062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '62499136ac3841fcbdb5c0ea9daf07a2') in 0.006905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f803b78d63191538e1a598e58f16bd45') in 0.064713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Buttons/250px/Button_Circle_Red_250px.png
+  artifactKey: Guid(ced095dc6f3a8d4428598f5b681d3edb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Buttons/250px/Button_Circle_Red_250px.png using Guid(ced095dc6f3a8d4428598f5b681d3edb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'acb4075cdb2ee22b22825ae7022f52b5') in 0.019714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Buttons/250px/Button_Honeycomb_Red_250px.png
+  artifactKey: Guid(596fc1e33e032ce45a091003bf7d6857) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Buttons/250px/Button_Honeycomb_Red_250px.png using Guid(596fc1e33e032ce45a091003bf7d6857) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1183f03833183c03d04485dbd22258c2') in 0.021403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Buttons/250px/Button_Honeycomb_White_250px.png
+  artifactKey: Guid(b004df1f2914877478241552257719a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Buttons/250px/Button_Honeycomb_White_250px.png using Guid(b004df1f2914877478241552257719a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '254849e75a081dfbbdd8d9d4e461504e') in 0.022722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Buttons/250px/Button_Circle_Pink_250px.png
+  artifactKey: Guid(45fe05bcf3cbbcf44becfa76de67e94b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Buttons/250px/Button_Circle_Pink_250px.png using Guid(45fe05bcf3cbbcf44becfa76de67e94b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'db50cfcfe70ecf040c823cbf02d794ed') in 0.019582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Buttons/250px/Button_Circle_Orange_250px.png
+  artifactKey: Guid(aa67a1e4a9fbe9e4fb8d6237f7ffd2f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Buttons/250px/Button_Circle_Orange_250px.png using Guid(aa67a1e4a9fbe9e4fb8d6237f7ffd2f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ca7e32dae56ef69a6a2902203a056bee') in 0.018871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Buttons/250px/Button_Square_White_250px.png
+  artifactKey: Guid(b60d54988a19f42429620bd8abcb3b11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Buttons/250px/Button_Square_White_250px.png using Guid(b60d54988a19f42429620bd8abcb3b11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '71adf84396ac654f1bec49e8cc6b0544') in 0.020556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '224d317768c4142c752cba482e9b52d0') in 0.009827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sweet Land GUI/Animations/Ad_Loading.anim
+  artifactKey: Guid(c7c944576475fe048a7daf0c65eccda7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Animations/Ad_Loading.anim using Guid(c7c944576475fe048a7daf0c65eccda7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5a1048e68d2038d6660169f4d3384f1e') in 0.009084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Joysticks/Joystick_Walk_Jelly.png
+  artifactKey: Guid(8d00ad584047669458dff31e6af9c333) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Joysticks/Joystick_Walk_Jelly.png using Guid(8d00ad584047669458dff31e6af9c333) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '708fa8121a16834ebf17ebddfea749dd') in 0.019371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Buttons/250px/Button_Square_Pink_250px.png
+  artifactKey: Guid(20ae63630a343e140bb218808370bcda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Buttons/250px/Button_Square_Pink_250px.png using Guid(20ae63630a343e140bb218808370bcda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5c0c6dfe17c0f9e1271f1a7cdca236f1') in 0.020032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Button_Play.prefab
+  artifactKey: Guid(dfc791cae673ad54f95dfb5d7dac7c30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Prefabs/Button_Play.prefab using Guid(dfc791cae673ad54f95dfb5d7dac7c30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '73c4a0ca7a3518fc09657564f5b5ca3b') in 0.016596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '13d3ea74fbae2ccd89de30dcda1522c1') in 0.010482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Icons/Icon_Shop.png
+  artifactKey: Guid(887b36e55fd0175458a0cecef0ec8767) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Icons/Icon_Shop.png using Guid(887b36e55fd0175458a0cecef0ec8767) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5a16ac0780991ce07a786e8a0a6b7a7a') in 0.020293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sweet Land GUI/Animations/Medal.anim
+  artifactKey: Guid(ae8c67f7b3836464c8430f17040fc780) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Animations/Medal.anim using Guid(ae8c67f7b3836464c8430f17040fc780) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c46ed43a437330e43f436cbbd2e6c709') in 0.008953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '02de6ac267dc5bd2caa81c5d6f500f03') in 0.053632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Button_Restart Variant.prefab
+  artifactKey: Guid(3961448ce6b4e43479aa4862922180cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Prefabs/Button_Restart Variant.prefab using Guid(3961448ce6b4e43479aa4862922180cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e6fb269ae47fc04c72b2c6c760853aa9') in 0.014856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dd32f509190795fe3aa330161bf6d4e6') in 0.005785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Power_Button_Cookie.prefab
+  artifactKey: Guid(dceee1964c43f2847b38a8b91650dc76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Prefabs/Power_Button_Cookie.prefab using Guid(dceee1964c43f2847b38a8b91650dc76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6395a3cd150908ef2e7cb1950c8e93bf') in 0.009789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Border_White_250px.png
+  artifactKey: Guid(2ca142f92f8b6e548994df0823b50d10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Border_White_250px.png using Guid(2ca142f92f8b6e548994df0823b50d10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '678170dc26cfa459ad9cd21ca5f9c128') in 0.017096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Square_Pink_250px.png
+  artifactKey: Guid(14a7e7425d330ec4ba6cf3dbdc0c36f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Square_Pink_250px.png using Guid(14a7e7425d330ec4ba6cf3dbdc0c36f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e0415344f4626e17feb51d76df95baf7') in 0.017040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Border_Pink_250px.png
+  artifactKey: Guid(22153ea0e86ef924a83c253ab2120c6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Border_Pink_250px.png using Guid(22153ea0e86ef924a83c253ab2120c6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c1937c3e6abee09dd05e3364d4523b5e') in 0.016718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Buttons/60px/Button_Trapezoid_Yellow_60px.png
+  artifactKey: Guid(7d57ce6d0d7148841bee1204ef187ff6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Buttons/60px/Button_Trapezoid_Yellow_60px.png using Guid(7d57ce6d0d7148841bee1204ef187ff6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ffdc8036116cae31cbdb47685e7d8b02') in 0.017524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Border_Orange_250px.png
+  artifactKey: Guid(8d12baed1c50a364b8dda26db910b273) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Border_Orange_250px.png using Guid(8d12baed1c50a364b8dda26db910b273) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '97fe5199365db8418b69624c8d457d67') in 0.021206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Trapezoid_Yellow_250px.png
+  artifactKey: Guid(a7c36dd7ecfa3604891e3dbc9dfe7c25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Trapezoid_Yellow_250px.png using Guid(a7c36dd7ecfa3604891e3dbc9dfe7c25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8f5f99b6e87070e483f839e955c8ba41') in 0.017050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Square_Yellow_250px.png
+  artifactKey: Guid(4eade859acaaaa64aa5d5e2fc5867f16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Square_Yellow_250px.png using Guid(4eade859acaaaa64aa5d5e2fc5867f16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '59785eadb75814a89ff63fcf2b7c84fa') in 0.016573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Border_Red_250px.png
+  artifactKey: Guid(9e2c12871a38061428af27e322ff2127) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Border_Red_250px.png using Guid(9e2c12871a38061428af27e322ff2127) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd893ce324c74d3d8c594b3f5cfece646') in 0.018524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Border_Pink_60px.png
+  artifactKey: Guid(5de6e2da15744ba40ba00709ed7dbe95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Border_Pink_60px.png using Guid(5de6e2da15744ba40ba00709ed7dbe95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2792ac6324baa065e059d2320471e69a') in 0.016861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Trapezoid_White_250px.png
+  artifactKey: Guid(ded19d0d721dc40429acf3d21af699e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Trapezoid_White_250px.png using Guid(ded19d0d721dc40429acf3d21af699e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd4b40a05507a98eb7028e6c28ca25e56') in 0.018657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Honeycomb_Honey_250px.png
+  artifactKey: Guid(4ccb9f941a6f9d3448dcf3f54c11f432) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Honeycomb_Honey_250px.png using Guid(4ccb9f941a6f9d3448dcf3f54c11f432) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1b985e345aea077e65e38ab8dab50260') in 0.022164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Honeycomb_Orange_250px.png
+  artifactKey: Guid(fe8949392d87a5a489141cdc445ad5ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Honeycomb_Orange_250px.png using Guid(fe8949392d87a5a489141cdc445ad5ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed135782d1bd517ee292a28d9be1a79e') in 0.018033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Buttons/60px/Button_Honeycomb_Orange_60px.png
+  artifactKey: Guid(3175c48579a9eda4a92c1c7320bf7d34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Buttons/60px/Button_Honeycomb_Orange_60px.png using Guid(3175c48579a9eda4a92c1c7320bf7d34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e268b36a801f416e6b0843ee88eb4b22') in 0.019108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '606da2b53146e4989ef4e0499de0c22b') in 0.011865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Joysticks/PowerUp_Not_Ready_Jelly.png
+  artifactKey: Guid(e11a2bccd5b86a84da59baed05d45410) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Joysticks/PowerUp_Not_Ready_Jelly.png using Guid(e11a2bccd5b86a84da59baed05d45410) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2b5ac028b3307e1b2054b59d86fd565d') in 0.018821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Buttons/60px/Button_Honeycomb_Yellow_60px.png
+  artifactKey: Guid(168074f6f48c3464ca1b336933c04bd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Buttons/60px/Button_Honeycomb_Yellow_60px.png using Guid(168074f6f48c3464ca1b336933c04bd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5cd1c6a27a4b14d6078acc8190d3492a') in 0.018055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Circle_Yellow_250px.png
+  artifactKey: Guid(a00e881b06d49f64a9a1a7e253440ecc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Circle_Yellow_250px.png using Guid(a00e881b06d49f64a9a1a7e253440ecc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '35f96ae06c0941711613ff27ff94227a') in 0.015566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Buttons/60px/Button_Honeycomb_Pink_60px.png
+  artifactKey: Guid(cd7a9dc9d7231544497df5d010d1547d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Buttons/60px/Button_Honeycomb_Pink_60px.png using Guid(cd7a9dc9d7231544497df5d010d1547d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'adb3f374244afffc53c278042f12ae8d') in 0.017414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Honeycomb_Pink_250px.png
+  artifactKey: Guid(67a231e4ec106774d8af6c69e2110632) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Honeycomb_Pink_250px.png using Guid(67a231e4ec106774d8af6c69e2110632) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3df7f5f2e302ba0af1759a7d216bab93') in 0.015647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '150987c24228bd0c8fe5f1362d82a9a9') in 0.006518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Joystick_Walk_Cookie.prefab
+  artifactKey: Guid(08aa126ae8b901a47895a135ae4f10a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Prefabs/Joystick_Walk_Cookie.prefab using Guid(08aa126ae8b901a47895a135ae4f10a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd1cb2e05af63bd2d79b0d7d4b7d64cb6') in 0.006769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Buttons/250px/Button_Honeycomb_Pink_250px.png
+  artifactKey: Guid(f143067366c4b42409d7f7a2982c860f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Buttons/250px/Button_Honeycomb_Pink_250px.png using Guid(f143067366c4b42409d7f7a2982c860f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '90f2d1f880e41924a31e71300c301b59') in 0.016186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Buttons/60px/Button_Square_Red_60px.png
+  artifactKey: Guid(81f78332483665e46bdcd7fc400e750d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Buttons/60px/Button_Square_Red_60px.png using Guid(81f78332483665e46bdcd7fc400e750d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1bde487f15ade5f62873a694f2600750') in 0.015844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Icons/Shop_Icon_Fire_Speed.png
+  artifactKey: Guid(30eed13f7c448824081c000760f61cef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Icons/Shop_Icon_Fire_Speed.png using Guid(30eed13f7c448824081c000760f61cef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4606cf3cbf7374abac745c95a7402e6b') in 0.016569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Icons/Coin_2.png
+  artifactKey: Guid(fc4dec7779e09234bb28a46f901a8dd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Icons/Coin_2.png using Guid(fc4dec7779e09234bb28a46f901a8dd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '31c22914358dff4e9f05936bcbc0a989') in 0.016451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Buttons/60px/Button_Trapezoid_Orange_60px.png
+  artifactKey: Guid(ca44b60a08e2772479fe2fdd1dddd46d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Buttons/60px/Button_Trapezoid_Orange_60px.png using Guid(ca44b60a08e2772479fe2fdd1dddd46d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f2e83e652330ce0cfd3d60e1cd1fd138') in 0.021349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Icons/Star.png
+  artifactKey: Guid(8cb4df65c6f4a2e499814646147fbc0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Icons/Star.png using Guid(8cb4df65c6f4a2e499814646147fbc0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a9239840257995f0eacd666c9ef45cd0') in 0.016331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/VinnFolder/Scenes/VinnTestScene.unity
+  artifactKey: Guid(235d6a27da49ab94793479bc050db8be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/VinnFolder/Scenes/VinnTestScene.unity using Guid(235d6a27da49ab94793479bc050db8be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e0fa306481df97d308d34841615f0075') in 0.006690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Joysticks/PowerUp_Ready_Jelly.png
+  artifactKey: Guid(4585192e4b26bb140931bf64ad48d0b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Joysticks/PowerUp_Ready_Jelly.png using Guid(4585192e4b26bb140931bf64ad48d0b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dc83bc7df72cf7ac1def986ef39d134c') in 0.014548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Trapezoid_Orange_60px.png
+  artifactKey: Guid(1e7ef0c8019deb0418d9528abeaffa75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Trapezoid_Orange_60px.png using Guid(1e7ef0c8019deb0418d9528abeaffa75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '611bd951b295bef13e93ef1353899967') in 0.016967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Border_White_60px.png
+  artifactKey: Guid(4b107a880431ee143bfbedb6fe5a195c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Border_White_60px.png using Guid(4b107a880431ee143bfbedb6fe5a195c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2dc8c45120be66afbb078f0ef9dbc761') in 0.015689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Square_Yellow_60px.png
+  artifactKey: Guid(9dc4f1c47e63703488d54cf2f984f2fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Square_Yellow_60px.png using Guid(9dc4f1c47e63703488d54cf2f984f2fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '52436580782ff4116a1e6fdd60e795df') in 0.015870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Trapezoid_Pink_60px.png
+  artifactKey: Guid(8532639a88f0b4246bee805e7c4afbf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Trapezoid_Pink_60px.png using Guid(8532639a88f0b4246bee805e7c4afbf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '437706d05d1087668059cae072bc5b82') in 0.015845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Honeycomb_Red_60px.png
+  artifactKey: Guid(ec4b09e6601c8e1479dce8964f69a62e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Honeycomb_Red_60px.png using Guid(ec4b09e6601c8e1479dce8964f69a62e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dea104bb2aa61fb0fbf6f3c84a02b166') in 0.017044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Square_White_60px.png
+  artifactKey: Guid(2fb165919b2cf6e448380a015dbbd833) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Square_White_60px.png using Guid(2fb165919b2cf6e448380a015dbbd833) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f19285048db92c1a2b181c63d6e8d78b') in 0.016373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Honeycomb_Yellow_60px.png
+  artifactKey: Guid(d2ba881f195812d4da22ac8228b6833b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Honeycomb_Yellow_60px.png using Guid(d2ba881f195812d4da22ac8228b6833b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '903742e82b79bec82a8725e77643182e') in 0.017835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Trapezoid_White_60px.png
+  artifactKey: Guid(df0117b8586d8bd4d99889f1557aed5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Trapezoid_White_60px.png using Guid(df0117b8586d8bd4d99889f1557aed5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b0d595ff3286483ef34aaa2caa3fa8fe') in 0.014799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Honeycomb_White_60px.png
+  artifactKey: Guid(7766e65b52593bd488450c5767bb7086) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Honeycomb_White_60px.png using Guid(7766e65b52593bd488450c5767bb7086) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '10bd731c61b1d7e5c8713cc7c41b8c3e') in 0.016482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Circle_Pink_60px.png
+  artifactKey: Guid(6e3e55432e6b9c24f899f41e1f53b1f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Circle_Pink_60px.png using Guid(6e3e55432e6b9c24f899f41e1f53b1f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '98db07c8fb0b75880c4db4e122cac9ae') in 0.015420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Border_Honey_60px.png
+  artifactKey: Guid(ffe409939941bfa46a47042ff94b7908) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Border_Honey_60px.png using Guid(ffe409939941bfa46a47042ff94b7908) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '983fb8b352f99f4743df2d6b4c796a5e') in 0.015193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Border_Red_60px.png
+  artifactKey: Guid(9fb56203d6493b7468284a64e26eed4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Border_Red_60px.png using Guid(9fb56203d6493b7468284a64e26eed4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e94c28e137dadedffd12bfcebbb9758f') in 0.015027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Square_White_250px.png
+  artifactKey: Guid(086b56c038a639a49ae469fbc85d6a7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Square_White_250px.png using Guid(086b56c038a639a49ae469fbc85d6a7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '552930263037b5f25e795b51b5b40772') in 0.018620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b3eaeccdc0560eafe526af083c9f487c') in 0.012965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Square_Orange_60px.png
+  artifactKey: Guid(91c256e5331d8c641a963058e2241823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Square_Orange_60px.png using Guid(91c256e5331d8c641a963058e2241823) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd3767a5baaa39b020445f805ea1b34e1') in 0.016046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Square_Red_60px.png
+  artifactKey: Guid(8e36233d9e012294e88c9e2c02c71323) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Square_Red_60px.png using Guid(8e36233d9e012294e88c9e2c02c71323) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'da9fcd1f080f685d0177d47a9b785622') in 0.016481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Button_Close.prefab
+  artifactKey: Guid(6d6e6e690a5820a4a97763552486b8e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Prefabs/Button_Close.prefab using Guid(6d6e6e690a5820a4a97763552486b8e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '52917b9410ea0eb792aa04b54c110fb2') in 0.011515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Square_Orange_250px.png
+  artifactKey: Guid(95332da0e346cb345ac3ece62a649e61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Square_Orange_250px.png using Guid(95332da0e346cb345ac3ece62a649e61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd3d4d7b0cbe864edfa61033ebb94849f') in 0.016964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Icons/Add_Video.png
+  artifactKey: Guid(4f0ff3f74d230e0448e9566bb08f20ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Icons/Add_Video.png using Guid(4f0ff3f74d230e0448e9566bb08f20ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '70f5dabc50f3914e4ddc4152dc885dcd') in 0.015690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Square_Red_250px.png
+  artifactKey: Guid(23bedb961464d2b4092de591a9e6f7b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Square_Red_250px.png using Guid(23bedb961464d2b4092de591a9e6f7b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '35fa00b9480e334d5e24704810a708c1') in 0.018138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Icons/Icon_Restart.png
+  artifactKey: Guid(a13d484535fd36046b5f8420a5df4dc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Icons/Icon_Restart.png using Guid(a13d484535fd36046b5f8420a5df4dc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dca4f3d8cda866cda43ff0cebec4d54e') in 0.015854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Buttons/60px/Button_Trapezoid_Pink_60px.png
+  artifactKey: Guid(0b579d927209cee45b5bfd42c4cb9bcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Buttons/60px/Button_Trapezoid_Pink_60px.png using Guid(0b579d927209cee45b5bfd42c4cb9bcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1b03c97f04f64b5c0792bcb88983cec4') in 0.015064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c7e5f1ad1eb7f4a10fbf0571e2af2da') in 0.012845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Button_Pause.prefab
+  artifactKey: Guid(1dbd35d4719e0b24aadd3d891ff35bfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Prefabs/Button_Pause.prefab using Guid(1dbd35d4719e0b24aadd3d891ff35bfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5ffe129079202cdb49d2c91452595d47') in 0.011859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Buttons/250px/Button_Square_Yellow_250px.png
+  artifactKey: Guid(7ca6d886bd040db4094470bf9ebaa4ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Buttons/250px/Button_Square_Yellow_250px.png using Guid(7ca6d886bd040db4094470bf9ebaa4ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3bb4716bc8f8f17933f183bf9059e627') in 0.020031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Scales/Empty_Circle_60px.png
+  artifactKey: Guid(063ddf13193775d46bdd2be41c2184e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Scales/Empty_Circle_60px.png using Guid(063ddf13193775d46bdd2be41c2184e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6a9b60986911219241c21b95b792021b') in 0.018093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Buttons/60px/Button_Square_Orange_60px.png
+  artifactKey: Guid(061aa5c4cee7ba941bf5eb4fe5e5585c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Buttons/60px/Button_Square_Orange_60px.png using Guid(061aa5c4cee7ba941bf5eb4fe5e5585c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e7ab6375a96d15058f52e415b5e23633') in 0.015674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Buttons/250px/Button_Honeycomb_Yellow_250px.png
+  artifactKey: Guid(164b3a5ea59153344915621cf45ba34d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Buttons/250px/Button_Honeycomb_Yellow_250px.png using Guid(164b3a5ea59153344915621cf45ba34d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '108350ef447e6ec71cdc8c6b3f5a1708') in 0.022040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Honeycomb_Honey_60px.png
+  artifactKey: Guid(7d99b95a3ebe8e44988593abb169523e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/60px/Frame_Honeycomb_Honey_60px.png using Guid(7d99b95a3ebe8e44988593abb169523e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4bf0465b93cbe9ed6982b0dc61a18a4a') in 0.018325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Trapezoid_Orange_250px.png
+  artifactKey: Guid(b41357f0764f23649b768f8c9a301d97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Trapezoid_Orange_250px.png using Guid(b41357f0764f23649b768f8c9a301d97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'db894d14dc3f7da8bada6c27c272d5d2') in 0.019928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '82a74ab994c0fcad501d7de8a5fd2524') in 0.012624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Icons/Shop_Icon_Extra_Hearts.png
+  artifactKey: Guid(d75f8b1d41b93e048b7ee957a4099e9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Icons/Shop_Icon_Extra_Hearts.png using Guid(d75f8b1d41b93e048b7ee957a4099e9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fe00e7622960c79ad5a8d1a88db84829') in 0.017052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Honeycomb_White_250px.png
+  artifactKey: Guid(5530203a1dc07674ca3e1439deb8d2c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Honeycomb_White_250px.png using Guid(5530203a1dc07674ca3e1439deb8d2c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ac5d3ea739a467cb890612afdb14b5c7') in 0.020388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sweet Land GUI/Prefabs/Loading_Ad.prefab
+  artifactKey: Guid(a322db60be7bccd46bb618ba881bfa6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sweet Land GUI/Prefabs/Loading_Ad.prefab using Guid(a322db60be7bccd46bb618ba881bfa6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a5a91516069901871c7bf18d62929b7e') in 0.028828 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006488 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.222 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1223ms)
+		BeginReloadAssembly (292ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (820ms)
+			LoadAssemblies (230ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (275ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (373ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3695 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 107 unused Assets / (79.6 KB). Loaded Objects now: 4356.
+Memory consumption went from 134.1 MB to 134.0 MB.
+Total: 3.662800 ms (FindLiveObjects: 0.572700 ms CreateObjectMapping: 0.132600 ms MarkObjects: 2.734100 ms  DeleteObjects: 0.222100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007580 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.223 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1223ms)
+		BeginReloadAssembly (252ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (855ms)
+			LoadAssemblies (215ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (394ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3854 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (151.7 KB). Loaded Objects now: 4457.
+Memory consumption went from 137.8 MB to 137.6 MB.
+Total: 4.764200 ms (FindLiveObjects: 1.067700 ms CreateObjectMapping: 0.211000 ms MarkObjects: 3.343900 ms  DeleteObjects: 0.140400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
