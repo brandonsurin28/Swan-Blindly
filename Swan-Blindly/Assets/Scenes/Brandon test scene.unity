@@ -4377,10 +4377,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visualizeFocus: 0
   focalLength: 20
-  focalSize: 1.25
-  aperture: 0.242
+  focalSize: 0.46
+  aperture: 0.043
   focalTransform: {fileID: 0}
-  maxBlurSize: 0.96
+  maxBlurSize: 1.1
   highResolution: 0
   blurType: 0
   blurSampleCount: 0
@@ -4594,10 +4594,10 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  saturation: 0.7
-  selectiveCc: 0
-  selectiveFromColor: {r: 1, g: 1, b: 1, a: 1}
-  selectiveToColor: {r: 1, g: 1, b: 1, a: 1}
+  saturation: 0.51
+  selectiveCc: 1
+  selectiveFromColor: {r: 0.16037735, g: 0.3617951, b: 0.6415094, a: 1}
+  selectiveToColor: {r: 0.9528302, g: 0.6666667, b: 0.26517445, a: 1}
   mode: 1
   updateTextures: 1
   colorCorrectionCurvesShader: {fileID: 4800000, guid: 62bcade1028c24ca1a39760ed84b9487, type: 3}
@@ -4620,8 +4620,8 @@ MonoBehaviour:
   hdr: 2
   sepBlurSpread: 2.44
   quality: 0
-  bloomIntensity: 3.01
-  bloomThreshold: 0.61
+  bloomIntensity: 0.2
+  bloomThreshold: 0.57
   bloomThresholdColor: {r: 1, g: 1, b: 1, a: 1}
   bloomBlurIterations: 4
   hollywoodFlareBlurIterations: 2
@@ -4653,11 +4653,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mode: 0
-  intensity: 0.115
-  chromaticAberration: 0.2
+  intensity: 0.24
+  chromaticAberration: 0
   axialAberration: 0.5
-  blur: 0.477
-  blurSpread: 0.447
+  blur: 0.596
+  blurSpread: 0.445
   luminanceDependency: 0.25
   blurDistance: 2.5
   vignetteShader: {fileID: 4800000, guid: 627943dc7a9a74286b70a4f694a0acd5, type: 3}
@@ -4731,8 +4731,8 @@ MonoBehaviour:
   useRadialDistance: 1
   heightFog: 1
   height: 2.3
-  heightDensity: 7.92
-  startDistance: 76.47
+  heightDensity: 9
+  startDistance: 77.81
   fogShader: {fileID: 4800000, guid: 70d8568987ac0499f952b54c7c13e265, type: 3}
 --- !u!81 &405024581
 AudioListener:
@@ -4807,7 +4807,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0.144, y: 168.601, z: -3.286}
+  m_LocalEulerAnglesHint: {x: 4.647977, y: 99.94553, z: 0.6999817}
 --- !u!4 &405978729 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 442488, guid: ec78ebca7517fb745a45a931cb06d2bd, type: 3}
